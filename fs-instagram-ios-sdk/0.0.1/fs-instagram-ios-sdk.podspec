@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
 
 				Distributed under the MIT License."
   }
-  s.author       = 'Cristiano Severini'
-  s.source       = { :git => "git@github.com:falconser/instagram-ios-sdk.git", :commit => "49fa610db3a9e20b4b88a9e10af76d5d0d4599f4" }
+  s.authors       = 'Cristiano Severini', 'Sergey Ischuk'
+  s.source       = { :git => "https://github.com/falconser/instagram-ios-sdk.git", :commit => "49fa610db3a9e20b4b88a9e10af76d5d0d4599f4" }
   s.platform     = :ios, '5.0'
   s.source_files = 'instagram-ios-sdk/instagram-ios-sdk'
   s.public_header_files = 'instagram-ios-sdk/instagram-ios-sdk/*.h'
